@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salomo AI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/icon.png">
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="#" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l2 w-auto" src="assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden indigo-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#home" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Home</a>
+            <a href="#demos" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Demos</a>
+            <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
+            <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
+            <a href="#whitelist" class="button bg-white black fw-600 no-underline mx-5">Join Whitelist</a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section id="home" class="min-h-100vh flex justify-start items-center">
+        <div class="mx-5 md-mx-l5">
+            <div>
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Data Insight  <br />Served for You</h1>
+
+                <div class="br-8 mt-10 inline-flex">
+                    <input type="text"
+                        class="input-lg half bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
+                        placeholder="Email Address">
+                    <button
+                        class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Join Whitelist</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- demo -->
+    <section id="demos" class="relative bg-indigo-lightest-10">
+        <div id="slider-1">
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">Insight from Vehicles Company</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Demo made for you</p>
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/1SWZd_FRa4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">Insight from Services Company</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Demo made for you</p>
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BJR330LVO8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">Insight from Logictics Company</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Demo made for you</p>
+                <div class="youtube-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/vSBIgh_DjAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <ul class="absolute list-none w-100pc flex justify-between top-50pc">
+            <li><button
+                    class="prev ml-10 br-round border-indigo-lightest indigo-lightest  bg-transparent flex justify-center items-center p-2 focus-indigo-lighter outline-none"><i
+                        data-feather="chevron-left"></i></button></li>
+            <li><button
+                    class="next mr-10 br-round border-indigo-lightest indigo-lightest  bg-transparent flex justify-center items-center p-2  focus-indigo-lighter outline-none"><i
+                        data-feather="chevron-right"></i></button></li>
+        </ul>
+    </section>
+
+    <!-- features -->
+    <section id="features" class="p-10 md-p-l5">
+        <div class="flex flex-column md-flex-row mx-auto">
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="inbox" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Say Hello to Salomo AI</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 lh-3 opacity-50">Interact with your data like never before.<br /><br />Salomo AI securely connects to your data warehouse's metadata and objects to help you code, discover data, and so much more.                
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="cpu" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Accessible to Anyone</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Any stakeholder can query your data using plain English.<br /><br />Salomo AI understands your business logic, semantics, and nuances about your data. The more you use him, the better he gets.</div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-40pc">
+                <div class="br-8 p-5 m-5">
+                    <div class="flex justify-center items-center bg-indigo-lightest-10 white w-l5 h-l5 br-round mb-5"><i
+                            data-feather="database" class="w-l5"></i></div>
+                    <h4 class="white fw-600 fs-m3 mb-5">Data</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Optimize your data for AI with automatic intelligent.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider -->
+    <section class="relative bg-indigo-lightest-10">
+        <div id="flex flex-column md-flex-row mx-auto">
+            <div class="p-10 md-p-l10 flex justify-center items-center flex-column text-center">
+                <h2 class="white fs-l3 fw-900">
+                    The reward for curiosity has never been clearer.</h2>
+                <p class="indigo-lightest fw-600 fs-m1 opacity-30 my-5">Everyone in your company can now leverage data for smarter decisions.
+                    Your data is discoverable.
+                    It's trustworthy.
+                    It's understandable.
+                    <br />That's our goal.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- pricing -->
+    <section id="pricing">
+        <div class="p-10 flex flex-wrap">
+            <div class="w-100pc md-w-50pc">
+                <div class="p-5">
+                    <h4 class="white fw-800 fs-l3 mb-5">Pricing Plans</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Tailored for you</div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-indigo-lightest-10 overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="indigo">Free</h3>
+                        <div class="white flex items-center">$<span class="fs-l5 lh-1">0</span>/mo</div>
+                    </div>
+                    <div class="p-3 indigo-lightest fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">1 user</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">50 message credits/month</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">150MB of storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">Additional free user up to 5 user per company</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">support</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">JOIN WHITELIST</button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-white overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="indigo">Pro</h3>
+                        <div class="black flex items-center">$<span class="fs-l5 lh-1">10</span>/mo</div>
+                    </div>
+                    <div class="p-3 black fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">1 User</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">4000 message credits/month</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">1GB of storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">Additional free user up to 10 user per company</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">Additional pro user for $2/month for 500 message credits/month</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">Additional pro user for $5/month for 1500 message credits/month</span>
+                        </div>
+                        <div>
+                            <i class="h-3 indigo" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">support</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-indigo white hover-opacity-100 hover-scale-up-1 ease-300">JOIN WHITELIST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- join whitelist -->
+    <section id="whitelist" class="p-10 md-p-l5">
+        <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
+            <div class="w-100pc md-w-33pc">
+                <h2 class="white fs-m4 fw-800">JOIN WHITELIST</h2>
+                <p class="fw-600 indigo-lightest opacity-40">Become the first one who use Salomo AI</p>
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex my-5">
+                    <input type="text"
+                        class="input-lg flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
+                        placeholder="Email Address">
+                    <button class="button-lg bg-indigo indigo-lightest fw-300 fs-s3 br-l-0">JOIN WHITELIST</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
