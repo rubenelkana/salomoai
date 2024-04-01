@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salomo AI</title>
@@ -30,7 +30,7 @@
             <a href="#demos" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Demos</a>
             <a href="#features" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Features</a>
             <a href="#pricing" class="fs-s1 mx-3 py-3 indigo no-underline hover-underline">Pricing</a>
-            <a href="#whitelist" class="button bg-white black fw-600 no-underline mx-5">Join Whitelist</a>
+            <a href="#waitlist" class="button bg-white black fw-600 no-underline mx-5">Join Waitlist</a>
         </div>
     </nav>
 
@@ -38,15 +38,14 @@
     <section id="home" class="min-h-100vh flex justify-start items-center">
         <div class="mx-5 md-mx-l5">
             <div>
-                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Data Insight  <br />Served for You</h1>
-
+                <h1 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 ">Data Insight  <br />Served for You</h1> <br />
+                <h3 class="white fs-l3 lh-2 md-fs-xl1 md-lh-1 fw-900 smaller-header">Enable you to do data-insight decision making</h3>
                 <div class="br-8 mt-10 inline-flex">
-                    <input type="text"
-                        class="input-lg half bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 min-w-25vw br-r-0"
-                        placeholder="Email Address">
-                    <button
-                        class="button-lg bg-indigo-lightest-20 indigo-lightest focus-white fw-300 fs-s3 mr-0 br-l-0">Join Whitelist</button>
+                    <fieldset>
+                        <button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300" onclick="redirectToLink()">JOIN WAITLIST</button>
+                    </fieldset>                  
                 </div>
+                                                                                                            
             </div>
         </div>
     </section>
@@ -171,7 +170,7 @@
                         </div>
                     </div>
                     <div class="p-3">
-                        <button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">JOIN WHITELIST</button>
+                        <button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300" onclick="redirectToLink()">JOIN WAITLIST</button>
                     </div>
                 </div>
             </div>
@@ -212,7 +211,7 @@
                         </div>
                     </div>
                     <div class="p-3">
-                        <button class="button full bg-indigo white hover-opacity-100 hover-scale-up-1 ease-300">JOIN WHITELIST</button>
+                        <button class="button full bg-indigo white hover-opacity-100 hover-scale-up-1 ease-300" onclick="redirectToLink()">JOIN WAITLIST</button>
                     </div>
                 </div>
             </div>
@@ -220,23 +219,22 @@
     </section>
     
 
-    <!-- join whitelist -->
-    <section id="whitelist" class="p-10 md-p-l5">
+    <!-- join waitlist -->
+    <section id="waitlist" class="p-10 md-p-l5">
         <div class="br-8 bg-indigo-lightest-10 p-5 md-p-l5 flex flex-wrap md-justify-between md-items-center">
             <div class="w-100pc md-w-33pc">
-                <h2 class="white fs-m4 fw-800">JOIN WHITELIST</h2>
+                <h2 class="white fs-m4 fw-800">JOIN WAITLIST</h2>
                 <p class="fw-600 indigo-lightest opacity-40">Become the first one who use Salomo AI</p>
-            </div>
-            <div class="w-100pc md-w-50pc">
-                <div class="flex my-5">
-                    <input type="text"
-                        class="input-lg flex-grow-1 bw-0 fw-200 bg-indigo-lightest-10 white ph-indigo-lightest focus-white opacity-80 fs-s3 py-5 br-r-0"
-                        placeholder="Email Address">
-                    <button class="button-lg bg-indigo indigo-lightest fw-300 fs-s3 br-l-0">JOIN WHITELIST</button>
+                <div class="w-100pc md-w-50pc mt-10"> <!-- Adjusted class and added margin-top -->
+                    <div class="br-8 inline-flex"> <!-- Removed mt-10 class -->
+                        <fieldset>
+                            <button class="button full bg-indigo white hover-opacity-100 hover-scale-up-1 ease-300" onclick="redirectToLink()">JOIN WAITLIST</button>
+                        </fieldset>                  
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section>    
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>

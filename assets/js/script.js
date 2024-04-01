@@ -38,4 +38,9 @@ $(document).ready(function () {
             }
         }, ]
     });
+
 });
+
+function redirectToLink() {
+    window.open("https://forms.gle/RcugYc7C6xKMAVa96", "_blank"); // Replace this with your actual waitlist link
+}
